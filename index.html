@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tasuku Onizawa – Resume / 履歴書</title>
+  <meta name="description" content="Bilingual (EN/JA) resume for Tasuku Onizawa – AI researcher and entrepreneur, CEO at SALT2 Inc." />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Tasuku Onizawa", "email": "mailto:tasuku_onizawa@salt-2.com", "telephone": "+81-70-8526-2845", "address": "Tokyo, Japan", "jobTitle": "CEO", "affiliation": [{"@type": "Organization", "name": "SALT2 Inc."}]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+:root {
+  --fg: #0f172a;      /* slate-900 */
+  --muted: #475569;   /* slate-600 */
+  --bg: #f8fafc;      /* slate-50 */
+  --card: #ffffff;
+  --accent: #1e40af;  /* indigo-800 */
+  --accent-2: #3b82f6;/* blue-500 */
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", Arial, sans-serif; color: var(--fg); background: var(--bg); }
+.container { max-width: 920px; margin: 40px auto; padding: 0 20px; }
+.header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
+.header h1 { font-size: 2rem; margin: 0; }
+.header .meta { color: var(--muted); font-size: 0.95rem; }
+.toolbar { display: flex; gap: 10px; margin: 16px 0 24px; }
+button, .btn { border: 1px solid var(--accent); color: var(--accent); background: transparent; padding: 8px 12px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+button:hover, .btn:hover { background: var(--accent); color: white; }
+.card { background: var(--card); border: 1px solid #e5e7eb; border-radius: 14px; padding: 18px; margin: 14px 0; box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04); }
+.section h2 { font-size: 1.15rem; margin: 0 0 12px; letter-spacing: .3px; text-transform: uppercase; color: var(--accent); }
+.item { margin: 8px 0 14px; }
+.item h3 { margin: 0 0 4px; font-size: 1.05rem; }
+.item .sub { color: var(--muted); font-size: 0.95rem; }
+ul.tight { margin: 8px 0 0 18px; padding: 0; }
+ul.tight li { margin: 6px 0; }
+.hr { height: 1px; background: #e5e7eb; margin: 20px 0; }
+.footer { color: var(--muted); font-size: 0.9rem; margin-top: 24px; }
+.lang-note { color: var(--muted); font-size: 0.9rem; }
+.badge { display:inline-block; font-size: .8rem; padding: 2px 8px; border-radius: 999px; background:#eef2ff; color:#3730a3; border:1px solid #c7d2fe; margin-left:6px;}
+@media print {
+  .toolbar { display: none !important; }
+  body { background: white; }
+  .card { box-shadow: none; border: 1px solid #ddd; }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Tasuku Onizawa / 鬼澤 輔</h1>
+      <div class="meta">📍 Tokyo, Japan &nbsp;•&nbsp; ✉️ <a href="mailto:tasuku_onizawa@salt-2.com">tasuku_onizawa@salt-2.com</a> &nbsp;•&nbsp; ☎ +81-70-8526-2845</div>
+      <span class="badge" id="lang-badge">EN</span>
+    </div>
+    <div class="toolbar">
+      <button onclick="setLang('en')">English</button>
+      <button onclick="setLang('ja')">日本語</button>
+      <a class="btn" href="#" onclick="window.print();return false;">Print / PDF</a>
+    </div>
+
+    <!-- English Resume -->
+    <section id="resume-en" class="section" lang="en">
+      <div class="card">
+        <h2>Professional Summary</h2>
+        <p>AI researcher and entrepreneur with hands-on and academic experience in AI development. Researched inference-focused embedding models, and as Founder &amp; CEO of <strong>SALT2 Inc.</strong> delivered LLM-powered solutions to 10+ enterprise clients end-to-end (sales, scoping, implementation).</p>
+      </div>
+
+      <div class="card">
+        <h2>Core Competencies</h2>
+        <ul class="tight">
+          <li><strong>R&amp;D:</strong> Embedding model development; RAG / In‑Context Learning; AI agent architecture; production implementation</li>
+          <li><strong>Business Development:</strong> Customer discovery, solution proposal, consulting</li>
+          <li><strong>Leadership:</strong> Startup founding &amp; operations; team building; project management</li>
+          <li><strong>AI Technologies:</strong> LLMs (APIs &amp; open‑weights), RAG, ICL, Embeddings, Fine‑tuning, AI Agents, demand forecasting &amp; optimization</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>CEO &nbsp;|&nbsp; SALT2 Inc., Tokyo</h3>
+          <div class="sub">Oct 2023 – Present</div>
+          <ul class="tight">
+            <li>Founded an AI consulting practice delivering LLM solutions for 10+ companies.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>Selected Project Highlights</h3>
+          <ul class="tight">
+            <li><strong>CCC</strong> (Mar 2024 – Oct 2024): Built a shift optimization tool. Led end‑to‑end from sales through implementation; selected for a Matsuo Lab–affiliated startup competition and completed PoC.</li>
+            <li><strong>Mitsui &amp; Co. Insurance Holdings Co., Ltd.</strong> (Dec 2024 – Feb 2025): Developed a consulting operations efficiency tool. Served as PM and AI/backend engineer from sales to delivery; increased monthly report output by <strong>4×</strong>.</li>
+            <li><strong>Mutual</strong> (Mar 2025 – Jun 2025): Built an IR‑focused generative‑AI service and delivered the core technical platform (PM &amp; AI/backend engineer).</li>
+            <li><strong>Confidential amusement company</strong> (Apr 2025 – Jul 2025): Developed an LLM‑driven demand forecasting model; delivered from solution proposal to deployment; achieved <strong>3% profit uplift</strong> on approx. <strong>¥60B</strong> annual revenue.</li>
+            <li><strong>Domestic private equity fund</strong> (Dec 2024 – Jul 2025): Advised as an independent AI advisor; conducted research and developed AI features across internal tools.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Advisory &amp; Contract Work</h2>
+        <div class="item">
+          <h3>Technical Expert (Contract) &nbsp;|&nbsp; Government AI Initiative, Ministry of Internal Affairs and Communications (MIC)</h3>
+          <div class="sub">Aug 2023 – Dec 2023</div>
+          <ul class="tight">
+            <li>Recommended by the Matsuo‑Iwasawa Laboratory (The University of Tokyo). Served as product lead for a generative‑AI greeting text generation tool.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Internships</h2>
+        <div class="item">
+          <h3>General‑purpose AI Agent Research &nbsp;|&nbsp; Matsuo‑Iwasawa Laboratory, The University of Tokyo</h3>
+          <div class="sub">Oct 2023 – Feb 2024</div>
+          <ul class="tight">
+            <li>Founding member contributing to the base architecture of a general‑purpose AI agent prototype.</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>Research &amp; Technology Consultant (Intern) &nbsp;|&nbsp; Fujitsu Professional Internship, Tokyo</h3>
+          <div class="sub">Oct 2022 – Feb 2023</div>
+          <ul class="tight">
+            <li>Conducted applied research on BERT/BART/GPT‑3 for enterprise applications and feasibility studies for large enterprises.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Research Experience</h2>
+        <div class="item">
+          <h3>Research Student &nbsp;|&nbsp; Matsuo‑Iwasawa Laboratory, The University of Tokyo</h3>
+          <div class="sub">Apr 2024 – Present</div>
+          <ul class="tight">
+            <li>Researching domain‑specific embedding models using LLMs.</li>
+            <li>Studying in‑context learning, with a focus on long‑context methods.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>Bachelor of Engineering (Systems Innovation) &nbsp;|&nbsp; School of Engineering, The University of Tokyo</h3>
+          <div class="sub">Apr 2020 – Sep 2025 (expected)</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Languages</h2>
+        <ul class="tight">
+          <li>Japanese: Native</li>
+          <li>English: Conversational</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Japanese Resume -->
+    <section id="resume-ja" class="section" lang="ja" style="display:none">
+      <div class="card">
+        <h2>プロフェッショナルサマリー</h2>
+        <p>実務と学術の両面でAI開発に従事するAI研究者兼起業家。推論に特化したEmbeddingモデルの研究に取り組み、<strong>SALT2株式会社</strong>の創業CEOとして、営業・要件定義・実装まで一気通貫で10社以上の企業にLLMソリューションを提供。</p>
+      </div>
+
+      <div class="card">
+        <h2>コアコンピテンシー</h2>
+        <ul class="tight">
+          <li><strong>研究開発:</strong> Embeddingモデル開発、RAG／In‑Context Learning、AI Agentアーキテクチャ、実装</li>
+          <li><strong>ビジネス開発:</strong> 顧客課題の深掘り、ソリューション提案、コンサルティング</li>
+          <li><strong>リーダーシップ:</strong> スタートアップ創業・運営、チームビルディング、プロジェクト管理</li>
+          <li><strong>AI技術:</strong> LLM（API・オープンモデル）、RAG、ICL、Embedding、Fine‑tuning、AI Agent、需要予測・最適化</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>職歴</h2>
+        <div class="item">
+          <h3>CEO ｜ SALT2株式会社（東京）</h3>
+          <div class="sub">2023年10月 – 現在</div>
+          <ul class="tight">
+            <li>企業向けLLMソリューションのAIコンサルティングを創業し、10社以上に導入。</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>主要プロジェクト実績</h3>
+          <ul class="tight">
+            <li><strong>CCC</strong>（2024年3月〜10月）：シフト最適化ツールを開発。営業から実装まで一貫して担当し、松尾研系のスタートアップコンペティションに選出、PoC完了。</li>
+            <li><strong>三井物産インシュアランス・ホールディングス株式会社</strong>（2024年12月〜2025年2月）：コンサル業務効率化ツールを開発。PM兼AI／バックエンドエンジニアとして営業〜デリバリーまで担当し、月次レポート出力量を<strong>4倍</strong>に向上。</li>
+            <li><strong>Mutual</strong>（2025年3月〜6月）：IR特化の生成AIサービスを開発。PM兼AI／バックエンドエンジニアとして、IR特化技術プラットフォームを構築。</li>
+            <li><strong>アミューズメント企業（非公開）</strong>（2025年4月〜7月）：LLM活用の需要予測モデルを開発。提案から導入まで遂行し、年商<strong>600億円</strong>規模の企業で<strong>利益3%向上</strong>を実現。</li>
+            <li><strong>国内PEファンド</strong>（2024年12月〜2025年7月）：各種ツールへのAI機能開発・リサーチを実施。個人のAIアドバイザーとして導入支援。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>アドバイザリー・契約業務</h2>
+        <div class="item">
+          <h3>技術専門家（契約） ｜ 政府AIイニシアチブ（総務省）</h3>
+          <div class="sub">2023年8月 – 12月</div>
+          <ul class="tight">
+            <li>東京大学 松尾・岩澤研究室の推薦で、生成AIによる挨拶文生成ツールのプロダクトリードを担当。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>インターンシップ</h2>
+        <div class="item">
+          <h3>汎用AIエージェント研究 ｜ 東京大学 松尾・岩澤研究室</h3>
+          <div class="sub">2023年10月 – 2024年2月</div>
+          <ul class="tight">
+            <li>汎用AIエージェントのプロトタイプ基盤アーキテクチャ構築に立ち上げメンバーとして貢献。</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3>研究・技術コンサルタント（インターン） ｜ 富士通プロフェッショナルインターン（東京）</h3>
+          <div class="sub">2022年10月 – 2023年2月</div>
+          <ul class="tight">
+            <li>BERT/BART/GPT‑3の企業向け応用研究と大企業向け実現可能性調査を実施。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>研究経験</h2>
+        <div class="item">
+          <h3>研究学生 ｜ 東京大学 松尾・岩澤研究室</h3>
+          <div class="sub">2024年4月 – 現在</div>
+          <ul class="tight">
+            <li>LLMを活用したドメイン特化型Embeddingモデルの研究。</li>
+            <li>In‑context learning（特にlong context）に関する研究。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>学歴</h2>
+        <div class="item">
+          <h3>工学学士（システム創成学） ｜ 東京大学 工学部</h3>
+          <div class="sub">2020年4月 – 2025年9月（予定）</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>言語</h2>
+        <ul class="tight">
+          <li>日本語：ネイティブ</li>
+          <li>英語：会話レベル</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="hr"></div>
+      <div class="lang-note">Tip: Use the language buttons to switch EN/JA. Print for PDF.</div>
+      <div>Last updated: 2025-08-08</div>
+    </div>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      const en = document.getElementById('resume-en');
+      const ja = document.getElementById('resume-ja');
+      const badge = document.getElementById('lang-badge');
+      if (lang === 'ja') {
+        en.style.display = 'none';
+        ja.style.display = 'block';
+        badge.textContent = 'JA';
+      } else {
+        en.style.display = 'block';
+        ja.style.display = 'none';
+        badge.textContent = 'EN';
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
