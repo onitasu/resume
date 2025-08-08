@@ -37,11 +37,7 @@ ul.tight li { margin: 6px 0; }
 .footer { color: var(--muted); font-size: 0.9rem; margin-top: 24px; }
 .lang-note { color: var(--muted); font-size: 0.9rem; }
 .badge { display:inline-block; font-size: .8rem; padding: 2px 8px; border-radius: 999px; background:#eef2ff; color:#3730a3; border:1px solid #c7d2fe; margin-left:6px;}
-@media print {
-  .toolbar { display: none !important; }
-  body { background: white; }
-  .card { box-shadow: none; border: 1px solid #ddd; }
-}
+
 </style>
 </head>
 <body>
@@ -54,7 +50,6 @@ ul.tight li { margin: 6px 0; }
     <div class="toolbar">
       <button onclick="setLang('en')">English</button>
       <button onclick="setLang('ja')">日本語</button>
-      <a class="btn" href="#" onclick="window.print();return false;">Print / PDF</a>
     </div>
 
     <!-- English Resume -->
@@ -87,11 +82,11 @@ ul.tight li { margin: 6px 0; }
         <div class="item">
           <h3>Selected Project Highlights</h3>
           <ul class="tight">
-            <li><strong>CCC</strong> (Mar 2024 – Oct 2024): Built a shift optimization tool. Led end‑to‑end from sales through implementation; selected for a Matsuo Lab–affiliated startup competition and completed PoC.</li>
+            <li><strong>CCC</strong> (Mar 2024 – Oct 2024): Built a natural language–operable shift optimization tool. Led implementation end‑to‑end; won 1st place in a Matsuo Lab–affiliated startup competition and completed PoC.</li>
             <li><strong>Mitsui &amp; Co. Insurance Holdings Co., Ltd.</strong> (Dec 2024 – Feb 2025): Developed a consulting operations efficiency tool. Served as PM and AI/backend engineer from sales to delivery; increased monthly report output by <strong>4×</strong>.</li>
             <li><strong>Mutual</strong> (Mar 2025 – Jun 2025): Built an IR‑focused generative‑AI service and delivered the core technical platform (PM &amp; AI/backend engineer).</li>
-            <li><strong>Confidential amusement company</strong> (Apr 2025 – Jul 2025): Developed an LLM‑driven demand forecasting model; delivered from solution proposal to deployment; achieved <strong>3% profit uplift</strong> on approx. <strong>¥60B</strong> annual revenue.</li>
-            <li><strong>Domestic private equity fund</strong> (Dec 2024 – Jul 2025): Advised as an independent AI advisor; conducted research and developed AI features across internal tools.</li>
+            <li><strong>Amusement company</strong> (Apr 2025 – Jul 2025): Developed a demand forecasting model using LLM‑driven feature discovery and contributed to profit improvement.</li>
+            <li><strong>Domestic private equity fund</strong> (Dec 2024 – Jul 2025): Conducted AI feature development and research.</li>
           </ul>
         </div>
       </div>
@@ -99,7 +94,7 @@ ul.tight li { margin: 6px 0; }
       <div class="card">
         <h2>Advisory &amp; Contract Work</h2>
         <div class="item">
-          <h3>Technical Expert (Contract) &nbsp;|&nbsp; Government AI Initiative, Ministry of Internal Affairs and Communications (MIC)</h3>
+          <h3>Technical Expert (Contract) &nbsp;|&nbsp; Generative AI Utilization Project, Ministry of Internal Affairs and Communications (MIC)</h3>
           <div class="sub">Aug 2023 – Dec 2023</div>
           <ul class="tight">
             <li>Recommended by the Matsuo‑Iwasawa Laboratory (The University of Tokyo). Served as product lead for a generative‑AI greeting text generation tool.</li>
@@ -184,11 +179,11 @@ ul.tight li { margin: 6px 0; }
         <div class="item">
           <h3>主要プロジェクト実績</h3>
           <ul class="tight">
-            <li><strong>CCC</strong>（2024年3月〜10月）：シフト最適化ツールを開発。営業から実装まで一貫して担当し、松尾研系のスタートアップコンペティションに選出、PoC完了。</li>
+            <li><strong>CCC</strong>（2024年3月〜10月）：自然言語で操作可能なシフト最適化ツールを開発。実装を一貫して担当し。松尾研系スタートアップ内でのコンペで1位になりPoC実施。</li>
             <li><strong>三井物産インシュアランス・ホールディングス株式会社</strong>（2024年12月〜2025年2月）：コンサル業務効率化ツールを開発。PM兼AI／バックエンドエンジニアとして営業〜デリバリーまで担当し、月次レポート出力量を<strong>4倍</strong>に向上。</li>
             <li><strong>Mutual</strong>（2025年3月〜6月）：IR特化の生成AIサービスを開発。PM兼AI／バックエンドエンジニアとして、IR特化技術プラットフォームを構築。</li>
-            <li><strong>アミューズメント企業（非公開）</strong>（2025年4月〜7月）：LLM活用の需要予測モデルを開発。提案から導入まで遂行し、年商<strong>600億円</strong>規模の企業で<strong>利益3%向上</strong>を実現。</li>
-            <li><strong>国内PEファンド</strong>（2024年12月〜2025年7月）：各種ツールへのAI機能開発・リサーチを実施。個人のAIアドバイザーとして導入支援。</li>
+            <li><strong>アミューズメント企業</strong>（2025年4月〜7月）：LLMによる特徴料発掘を活用した需要予測モデルを開発し、利益向上貢献。</li>
+            <li><strong>国内PEファンド</strong>（2024年12月〜2025年7月）：AI機能開発・リサーチを実施。</li>
           </ul>
         </div>
       </div>
@@ -196,7 +191,7 @@ ul.tight li { margin: 6px 0; }
       <div class="card">
         <h2>アドバイザリー・契約業務</h2>
         <div class="item">
-          <h3>技術専門家（契約） ｜ 政府AIイニシアチブ（総務省）</h3>
+          <h3>技術専門家（契約） ｜ 生成AI活用pj（総務省）</h3>
           <div class="sub">2023年8月 – 12月</div>
           <ul class="tight">
             <li>東京大学 松尾・岩澤研究室の推薦で、生成AIによる挨拶文生成ツールのプロダクトリードを担当。</li>
@@ -253,7 +248,7 @@ ul.tight li { margin: 6px 0; }
 
     <div class="footer">
       <div class="hr"></div>
-      <div class="lang-note">Tip: Use the language buttons to switch EN/JA. Print for PDF.</div>
+      <div class="lang-note">Tip: Use the language buttons to switch EN/JA.</div>
       <div>Last updated: 2025-08-08</div>
     </div>
   </div>
